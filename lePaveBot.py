@@ -1,5 +1,5 @@
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-TOKEN = "621296017:AAGjhIBQmgNYW1cZ0BhcY1t0K0N3pSPZcjQ"
+TOKEN = "XXX-YOUR-TOKEN"
 
 def start(bot, update):
   update.message.reply_text("Bot sobre ciclismo creado por Jonatan Navarrete")
